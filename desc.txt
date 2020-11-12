@@ -1,0 +1,21 @@
+package recursivefun;
+
+public class descendingnumbers 
+{
+
+    static void fun(int n)
+    {
+    	if(n>0)
+    	{
+      	  System.out.print(n + " ");
+          fun(n-1);
+        }
+    	else
+    		return;
+    }
+	public static void main(String[] args) 
+	{
+		fun(5);		
+	}
+
+}
